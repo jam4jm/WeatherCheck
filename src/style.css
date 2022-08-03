@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.containerWeather {
+  display: block;
+  margin: 0 auto;
+  background-color: #dff6ff;
+  width: 650px;
+  max-width: 100%;
+  padding-bottom: 1px;
+}
+form {
+  display: block;
+  margin: 10vh 0 30px;
+  padding-top: 27px;
+  text-align: center;
+}
+input[type="text"] {
+  border: 3px solid rgb(114, 112, 112);
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 2;
+}
+.actualWeather {
+  display: block;
+  margin: 0 auto;
+  padding: 0 11px 20px;
+  border-radius: 10px;
+  width: 600px;
+  max-width: 90%;
+  color: #fff;
+  background-color: #47b5ff;
+}
+.header {
+  box-shadow: rgba(0, 0, 0, 0.4) inset 0 0 0 100vw;
+  border-radius: 10px 10px 0px 0px;
+  line-height: 2;
+  font-size: 20px;
+  font-weight: bold;
+}
+.time {
+  text-align: right;
+}
+.nowTemperature {
+  font-weight: bold;
+  font-size: 42px;
+}
+.nowType {
+  font-size: 25px;
+  line-height: 1;
+}
+
+.temperatureRange {
+  font-size: 30px;
+  line-height: 1;
+}
+.maxTemperature {
+  font-weight: bold;
+  padding-top: 21px;
+}
+.minTemperature {
+  padding-top: 4px;
+}
+.weatherDetailsTitle,
+.weatherDetailsData {
+  padding-top: 15px;
+  font-size: 20px;
+  line-height: 1.3;
+}
+.todayWeatherIcon {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20%;
+  width: 100%;
+  max-width: 170px;
+}
+.nowWeather,
+.weatherDetailsTitle {
+  margin-right: 15px;
+}
+
+.weatherForecast {
+  display: block;
+  margin: 30px auto;
+  padding: 11px 20px;
+  border-radius: 10px;
+  width: 600px;
+  max-width: 90%;
+  color: #111;
+  background-color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+}
+.dayForecast {
+  text-align: center;
+  line-height: 1;
+}
+.date {
+  line-height: 2;
+}
+.maxDayTemperature {
+  font-size: 25px;
+}
+.minDayTemperature {
+  font-size: 25px;
+  font-weight: normal;
+}
+.forecastWeatherIcon {
+  display: block;
+  margin: 0 auto;
+  padding-top: 10%;
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}

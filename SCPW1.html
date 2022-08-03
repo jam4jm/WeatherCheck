@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>WeatherCheck</title>
+  </head>
+  <link rel="stylesheet" href="src/style.css" />
+  <body>
+    <div class="container">
+      <div class="containerWeather">
+        <div class="citySearch" id="cityForm">
+          <form>
+            <input
+              type="text"
+              name="city"
+              id="citySearch"
+              placeholder="Search your City"
+            />
+          </form>
+        </div>
+        <div class="actualWeather">
+          <div class="row header">
+            <div class="col-6 city" id="city"></div>
+            <div class="col-6 time" id="time">13:34</div>
+          </div>
+          <div class="row weatherToday">
+            <div class="col-sm-2 nowWeather">
+              <div class="nowTemperature" id="nowTemperature"></div>
+              <div class="nowType" id="nowType">Sunny</div>
+            </div>
+            <div class="col-sm-2 temperatureRange">
+              <div class="maxTemperature" id="maxTemperature"></div>
+              <div class="minTemperature" id="minTemperature"></div>
+            </div>
+            <div class="col-sm-2 weatherDetailsTitle">
+              <div>Humidity</div>
+              <div>Wind</div>
+              <div>Pressure</div>
+            </div>
+            <div class="col-sm-3 weatherDetailsData">
+              <div id="humidity"></div>
+              <div id="wind"></div>
+              <div id="pressure"></div>
+            </div>
+            <div class="col-sm-2">
+              <img class="todayWeatherIcon" src="img/sunny.png" />
+            </div>
+          </div>
+        </div>
+        <div class="weatherForecast">
+          <div>Daily Forecast</div>
+          <div class="row dayForecast">
+            <div class="col-sm-3 dayForecast">
+              <div class="date">Sun 03</div>
+              <div class="maxDayTemperature">35°C</div>
+              <div class="minDayTemperature">25°C</div>
+              <img class="forecastWeatherIcon" src="img/sunny.png" />
+            </div>
+            <div class="col-sm-3 dayForecast">
+              <div class="date">Mon 04</div>
+              <div class="maxDayTemperature">30°C</div>
+              <div class="minDayTemperature">17°C</div>
+              <img class="forecastWeatherIcon" src="img/sun.png" />
+            </div>
+            <div class="col-sm-3 dayForecast">
+              <div class="date">Tue 05</div>
+              <div class="maxDayTemperature">32°C</div>
+              <div class="minDayTemperature">21°C</div>
+              <img class="forecastWeatherIcon" src="img/sun.png" />
+            </div>
+            <div class="col-sm-3 dayForecast">
+              <div class="date">Wed 06</div>
+              <div class="maxDayTemperature">28°C</div>
+              <div class="minDayTemperature">19°C</div>
+              <img class="forecastWeatherIcon" src="img/rain.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>Coded by Yuliia</footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
