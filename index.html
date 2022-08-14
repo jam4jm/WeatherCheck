@@ -34,12 +34,20 @@
         </div>
         <div class="actualWeather">
           <div class="row header">
-            <div class="col-6 city" id="city"></div>
-            <div class="col-6 time" id="time">13:34</div>
+            <div class="col-6 city" id="city">Kyiv</div>
+            <div class="col-6 time" id="time"></div>
           </div>
           <div class="row weatherToday">
             <div class="col-sm-2 nowWeather">
-              <div class="nowTemperature" id="nowTemperature"></div>
+              <div>
+                <a href="#" class="units active" id="celsius">°C</a>
+                |
+                <a href="#" class="units" id="fahrenheit">°F</a>
+              </div>
+              <div>
+                <span class="nowTemperature" id="nowTemperature"></span>
+                <span class="nowTemperature" id="unit">°C</span>
+              </div>
               <div class="nowType" id="nowType">Sunny</div>
             </div>
             <div class="col-sm-2 temperatureRange">

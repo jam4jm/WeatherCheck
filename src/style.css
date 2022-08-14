@@ -42,9 +42,20 @@ input[type="text"] {
 .time {
   text-align: right;
 }
+.units {
+  text-decoration: none;
+  color: #111;
+}
+.active {
+  color: #fff;
+}
+.active:hover {
+  cursor: default;
+  color: #fff;
+}
 .nowTemperature {
   font-weight: bold;
-  font-size: 42px;
+  font-size: 30px;
 }
 .nowType {
   font-size: 25px;
@@ -74,7 +85,7 @@ input[type="text"] {
   padding-top: 20%;
   width: 100%;
   max-width: 170px;
-  filter: drop-shadow(0 0 25px rgba(22, 0, 0, 0.784));
+  filter: drop-shadow(0 0 25px rgba(54, 0, 0, 0.784));
 }
 .nowWeather,
 .weatherDetailsTitle {
