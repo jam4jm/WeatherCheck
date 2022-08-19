@@ -42,20 +42,9 @@ input[type="text"] {
 .time {
   text-align: right;
 }
-.units {
-  text-decoration: none;
-  color: #111;
-}
-.active {
-  color: #fff;
-}
-.active:hover {
-  cursor: default;
-  color: #fff;
-}
 .nowTemperature {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 42px;
 }
 .nowType {
   font-size: 25px;
